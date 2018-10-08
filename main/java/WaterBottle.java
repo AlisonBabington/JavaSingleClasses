@@ -22,4 +22,12 @@ public class WaterBottle {
     public int reduceVolume() {
         return this.volume  -= 10;
     }
+
+    public int emptyVolume() {
+        return this.volume = 0;
+    }
+
+    public int fill() {
+        return this.volume = 100;
+    }
 }
