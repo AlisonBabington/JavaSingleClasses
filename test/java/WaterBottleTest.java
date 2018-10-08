@@ -35,6 +35,6 @@ public class WaterBottleTest {
 
     @Test
     public void canFillVolume() {
-        assertEquals(100, waterBottle.fill());
+        assertEquals(100, waterBottle.fill(100));
     }
 }
