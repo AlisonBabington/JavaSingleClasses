@@ -20,5 +20,6 @@ public class WaterBottle {
 
 
     public int reduceVolume() {
+        return this.volume  -= 10;
     }
 }
